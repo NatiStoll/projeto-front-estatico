@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;700&family=Roboto+Slab:wght@100&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap");
+
+body {
+  max-width: 1000px;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-size: 800px;
+  color: rgba(0, 0, 0, 0.2);
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: right;
+  align-self: center;
+  padding: 40px;
+  writing-mode: vertical-rl;
+  justify-content: right;
+}
+
+img {
+  max-width: 100%;
+  max-height: 180px;
+}
+
+h6 {
+  text-transform: uppercase;
+}
+
+ul {
+  margin-left: 20px;
+  font-weight: 200;
+}
+
+footer {
+  font-weight: lighter;
+  font-size: medium;
+  text-align: center;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+  position: relative;
+}
+
+footer span {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+footer span::after {
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 2px;
+  background-color: black;
+  position: relative;
+  top: -8px;
+}
+
+.contato-text {
+  min-width: 200px;
+  align-self: top;
+}
+
+.education div {
+  margin-top: 10px;
+}
+
+.education-date {
+  background-color: rgba(0, 0, 0, 0.8);
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  color: white;
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+
+.expertise li {
+  padding: 8px;
+}
+
+.education h6 span {
+  font-weight: 200;
+}
+
+.education h5,
+.expertise h5,
+.profile h5 {
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: x-large;
+  text-transform: uppercase;
+}
+
+.traco {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+}
+
+.formacao-title {
+  font-weight: bold;
+  font-size: large;
+}
+
+.contato h5 {
+  font-family: Montserrat;
+  font-size: 0.8rem;
+  margin-left: 35px;
+  align-content: end;
+}
+
+#experiencia {
+  transform: rotate(180deg);
+}
+
+#experience-details {
+  padding: 15px;
+  margin-top: 20px;
+}
+
+#qualy {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 50px 30px;
+}
+
+#top {
+  position: relative;
+}
+
+#icons-area {
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 25px;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  margin-top: 0;
+}
+
+#name {
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+#sub {
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  #infos-contato {
+    display: flex;
+    margin-block-end: -30px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+  }
+}
